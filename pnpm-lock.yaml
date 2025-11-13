@@ -171,8 +171,8 @@ importers:
         specifier: ^5.0.1
         version: 5.0.3
       tar:
-        specifier: ^7.4.3
-        version: 7.5.1
+        specifier: ^7.5.2
+        version: 7.5.2
       ts-morph:
         specifier: ^27.0.0
         version: 27.0.2
@@ -4073,7 +4073,7 @@ importers:
         version: 4.0.7(vitest@4.0.7)
       chai-exclude:
         specifier: catalog:testing
-        version: 3.0.1(chai@6.2.0)
+        version: 3.0.1(chai@6.2.1)
       cross-env:
         specifier: 'catalog:'
         version: 7.0.3
@@ -35764,6 +35764,10 @@ packages:
     resolution: {integrity: sha512-aUTnJc/JipRzJrNADXVvpVqi6CO0dn3nx4EVPxijri+fj3LUUDyZQOgVeW54Ob3Y1Xh9Iz8f+CgaCl8v0mn9bA==}
     engines: {node: '>=18'}
 
+  chai@6.2.1:
+    resolution: {integrity: sha512-p4Z49OGG5W/WBCPSS/dH3jQ73kD6tiMmUM+bckNK6Jr5JHMG3k9bg/BvKR8lKmtVBKmOiuVaV2ws8s9oSbwysg==}
+    engines: {node: '>=18'}
+
   chalk-template@1.1.2:
     resolution: {integrity: sha512-2bxTP2yUH7AJj/VAXfcA+4IcWGdQ87HwBANLt5XxGTeomo8yG0y95N1um9i5StvhT/Bl0/2cARA5v1PpPXUxUA==}
     engines: {node: '>=14.16'}
@@ -37991,8 +37995,8 @@ packages:
     resolution: {integrity: sha512-ujeqbceABgwMZxEJnk2HDY2DlnUZ+9oEcb1KzTVfYHio0UE6dG71n60d8D2I4qNvleWrrXpmjpt7vZeF1LnMZQ==}
     engines: {node: '>=6'}
 
-  tar@7.5.1:
-    resolution: {integrity: sha512-nlGpxf+hv0v7GkWBK2V9spgactGOp0qvfWRxUMjqHyzrt3SgwE48DIv/FhqPHJYLHpgW1opq3nERbz5Anq7n1g==}
+  tar@7.5.2:
+    resolution: {integrity: sha512-7NyxrTE4Anh8km8iEy7o0QYPs+0JKBTj5ZaqHg6B39erLg0qYXN3BijtShwbsNSvQ+LN75+KV+C4QR/f6Gwnpg==}
     engines: {node: '>=18'}
 
   terser@5.39.0:
@@ -41427,7 +41431,7 @@ snapshots:
       '@types/chai': 5.2.3
       '@vitest/spy': 4.0.8
       '@vitest/utils': 4.0.8
-      chai: 6.2.0
+      chai: 6.2.1
       tinyrainbow: 3.0.3
 
   '@vitest/mocker@4.0.7(msw@2.7.3(@types/node@20.19.23)(typescript@5.8.3))(vite@7.2.2(@types/node@20.19.23)(terser@5.39.0)(tsx@4.20.6)(yaml@2.8.1))':
@@ -41749,7 +41753,14 @@ snapshots:
       chai: 6.2.0
       fclone: 1.0.11
 
+  chai-exclude@3.0.1(chai@6.2.1):
+    dependencies:
+      chai: 6.2.1
+      fclone: 1.0.11
+
   chai@6.2.0: {}
+
+  chai@6.2.1: {}
 
   chalk-template@1.1.2:
     dependencies:
@@ -44253,7 +44264,7 @@ snapshots:
       inherits: 2.0.4
       readable-stream: 3.6.2
 
-  tar@7.5.1:
+  tar@7.5.2:
     dependencies:
       '@isaacs/fs-minipass': 4.0.1
       chownr: 3.0.0
