@@ -1,13 +1,14 @@
 # Release History
 
-## 2.0.0-beta.5 (unreleased)
+## 2.0.0-beta.5 (2026-02-24)
+
+### Features Added
 - Add `project.beta` route for accessing beta features, including:
   - `project.beta.schedules`
   - `project.beta.redTeams`
   - `project.beta.memoryStores`
   - `project.beta.insights`
   - `project.beta.evaluators`
-  - `project.beta.evaluationRules`
   - `project.beta.evaluationTaxonomies`
 
 
